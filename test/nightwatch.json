@@ -1,0 +1,16 @@
+{
+    "src_folders" : ["./test/src"],
+    "page_objects_path":["./test/src/page-objects"],
+    "test_workers" : false,
+    "selenium" : {
+      "start_process" : true,
+      "start_session" : false
+    },
+  
+    "test_settings": {
+      "default" : {
+        "filter" : "**/*.js",
+        "compatible_testcase_support" : true
+      }
+    }
+  }
